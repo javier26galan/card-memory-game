@@ -1,1 +1,8 @@
-<p>card works!</p>
+  <div *ngFor="let card of cardsArray" class="card">
+    <img class="card-img" src="{{ card.imageUrl }}" />
+    <p class="card-text">{{ card.name }}</p>
+  </div>
+  <div *ngFor="let card of cardsArray" class="card">
+    <img class="card-img" src="{{ card.imageUrl }}" />
+    <p class="card-text">{{ card.name }}</p>
+  </div>

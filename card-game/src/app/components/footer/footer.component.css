@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   background-color: var(--yellow);
-  position: fixed;
+  /* position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 0; */
 }

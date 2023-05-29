@@ -1,0 +1,27 @@
+.card {
+  width: 90%;
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  border: 5px solid var(--red);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 5px 10px 5px;
+  margin: 1em;
+}
+.card-img {
+  width: 100%;
+}
+
+.card-text {
+  font-size: 12px;
+}
+
+.container {
+  width: 100%;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
